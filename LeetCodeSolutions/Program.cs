@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCodeSolutions.SlidingWindow;
 
-new MinimumSizeSubarraySum_209.Solution().MinSubArrayLen(7, [2, 3, 1, 2, 4, 3]);
+new MaxConsecutiveOnesIII_1004.Solution().LongestOnes([0, 0, 0,1], 4);
