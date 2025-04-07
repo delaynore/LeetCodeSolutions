@@ -6,28 +6,47 @@ internal class ReverseLinkedListII_92
     {
         public ListNode ReverseBetween(ListNode head, int left, int right)
         {
-            left--;
-            right--;
+            if (left == right) return head;
 
             var current = head;
-            var count = 0;
-            while (count < left - 1)
-            {
-                current = current.next;
-            }
-            var prev = current;
-            current = current.next;
+            var counter = 1;
 
-            while (count < right)
+            ListNode? prev = null;
+            ListNode? second = null;
+            ListNode? first = null;
+            while (counter <= right)
             {
+                if (counter == left - 1)
+                {
+                    first = current;
+                }
+
+                if (counter < left)
+                {
+                    current = current.next;
+                    counter++;
+                    continue;
+                }
+
+                if (counter == left)
+                {
+                    second = current;
+                }
+
                 var tmp = current.next;
-                current.next = prev;
+                current.next = prev!;
                 prev = current;
                 current = tmp;
-                count++;
+                counter++;
             }
 
-            return head;
+            if (first != null)
+            {
+                first.next = prev!;
+            }
+            second!.next = current;
+
+            return first == null ? prev! : head!;
         }
     }
 }
