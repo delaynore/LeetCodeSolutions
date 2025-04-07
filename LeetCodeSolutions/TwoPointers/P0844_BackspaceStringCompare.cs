@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class BackspaceStringCompare_844
+internal class P0844_BackspaceStringCompare
 {
     public bool BackspaceCompare(string s, string t)
     {

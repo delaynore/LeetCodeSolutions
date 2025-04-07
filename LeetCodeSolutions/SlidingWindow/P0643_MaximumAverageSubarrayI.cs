@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.SlidingWindow;
 
-internal class MaximumAverageSubarrayI_643
+internal class P0643_MaximumAverageSubarrayI
 {
     public class Solution
     {

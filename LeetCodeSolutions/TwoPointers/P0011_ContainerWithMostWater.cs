@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class ContainerWithMostWater_11
+internal class P0011_ContainerWithMostWater
 {
     public int MaxArea(int[] height)
     {

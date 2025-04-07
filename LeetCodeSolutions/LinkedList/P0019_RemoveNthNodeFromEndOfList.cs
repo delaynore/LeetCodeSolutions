@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class RemoveNthNodeFromEndOfList_19
+internal class P0019_RemoveNthNodeFromEndOfList
 {
     public class Solution
     {

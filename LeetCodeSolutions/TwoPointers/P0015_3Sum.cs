@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class _3Sum_15
+internal class P0015_3Sum
 {
     public IList<IList<int>> ThreeSum(int[] nums)
     {

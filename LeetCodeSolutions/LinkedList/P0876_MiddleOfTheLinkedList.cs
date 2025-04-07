@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class MiddleOfTheLinkedList_876
+internal class P0876_MiddleOfTheLinkedList
 {
     public class Solution
     {

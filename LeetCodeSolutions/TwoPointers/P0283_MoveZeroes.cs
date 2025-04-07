@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class MoveZeroes_283
+internal class P0283_MoveZeroes
 {
     public void MoveZeroes(int[] nums)
     {

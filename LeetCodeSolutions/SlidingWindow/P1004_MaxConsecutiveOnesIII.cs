@@ -1,12 +1,11 @@
 ﻿namespace LeetCodeSolutions.SlidingWindow;
 
-internal class LongestSubarrayOf1AfterDeletingOneElement_1493
+internal class P1004_MaxConsecutiveOnesIII
 {
     public class Solution
     {
-        public int LongestSubarray(int[] nums)
+        public int LongestOnes(int[] nums, int k)
         {
-            const int k = 1;
             var begin = 0;
             var maxWindowSize = int.MinValue;
             var zeroCounter = 0;
@@ -24,7 +23,7 @@ internal class LongestSubarrayOf1AfterDeletingOneElement_1493
                     }
                     begin++;
                 }
-                maxWindowSize = Math.Max(maxWindowSize, end - begin); // must delete one element, even if there is no 0
+                maxWindowSize = Math.Max(maxWindowSize, end - begin + 1);
             }
             return maxWindowSize;
         }

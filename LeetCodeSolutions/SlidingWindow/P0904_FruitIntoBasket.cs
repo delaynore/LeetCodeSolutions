@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.SlidingWindow;
 
-internal class FruitIntoBasket_904
+internal class P0904_FruitIntoBasket
 {
     public class Solution
     {

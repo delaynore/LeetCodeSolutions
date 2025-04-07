@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class ValidPalindrome_125
+internal class P0125_ValidPalindrome
 {
     public bool IsPalindrome(string s)
     {

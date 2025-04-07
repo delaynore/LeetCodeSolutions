@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class RemoveDuplicatesFromSortedList_83
+internal class P0083_RemoveDuplicatesFromSortedList
 {
     public class Solution
     {

@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class PalindromeLinkedList_234
+internal class P0234_PalindromeLinkedList
 {
     public class Solution
     {

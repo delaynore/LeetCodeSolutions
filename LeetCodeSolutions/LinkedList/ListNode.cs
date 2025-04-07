@@ -13,7 +13,7 @@ public class ListNode
 
     public override string ToString()
     {
-        if(next == null) return val.ToString();
+        if (next == null) return val.ToString();
 
         return $"{val} -> {next}";
     }

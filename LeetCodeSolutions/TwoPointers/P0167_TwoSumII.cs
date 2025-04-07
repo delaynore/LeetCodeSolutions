@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class TwoSumII_167
+internal class P0167_TwoSumII
 {
     public int[] TwoSum(int[] numbers, int target)
     {

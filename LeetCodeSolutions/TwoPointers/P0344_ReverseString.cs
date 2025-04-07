@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class ReverseString_344
+internal class P0344_ReverseString
 {
     public void ReverseString(char[] s)
     {

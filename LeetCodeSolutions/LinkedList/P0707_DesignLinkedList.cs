@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class DesignLinkedList_707
+internal class P0707_DesignLinkedList
 {
     public class Node
     {

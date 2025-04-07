@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class MergeSortedArray_88
+internal class P0088_MergeSortedArray
 {
     public void Merge(int[] nums1, int m, int[] nums2, int n)
     {

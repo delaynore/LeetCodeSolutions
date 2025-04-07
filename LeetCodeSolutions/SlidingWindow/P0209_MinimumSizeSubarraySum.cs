@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.SlidingWindow;
 
-internal class MinimumSizeSubarraySum_209
+internal class P0209_MinimumSizeSubarraySum
 {
     public class Solution
     {

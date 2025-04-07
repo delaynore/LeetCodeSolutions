@@ -2,7 +2,7 @@
 using LeetCodeSolutions.LinkedList;
 using LeetCodeSolutions.SlidingWindow;
 
-var list = new DesignLinkedList_707.MyLinkedList();
+var list = new P0707_DesignLinkedList.MyLinkedList();
 
 list.AddAtHead(2);
 list.AddAtIndex(0, 1);

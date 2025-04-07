@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class ReverseLinkedListII_92
+internal class P0092_ReverseLinkedListII
 {
     public class Solution
     {

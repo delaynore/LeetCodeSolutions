@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.LinkedList;
 
-internal class DeleteTheMiddleNodeOfALinkedList_2095
+internal class P2095_DeleteTheMiddleNodeOfALinkedList
 {
     //Definition for singly-linked list.
     public class ListNode

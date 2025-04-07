@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeSolutions.TwoPointers;
 
-internal class SquaresOfASortedArray_977
+internal class P0977_SquaresOfASortedArray
 {
     public int[] SortedSquares(int[] nums)
     {
