@@ -5,10 +5,10 @@ internal class P0583_DeleteOperationsForTwoStrings
     public class Solution
     {
         // Algo O(n*m), Space O(n)
-        public int MinDistanceShorted(string word1, string word2)
+        public int MinDistance(string word1, string word2)
         {
-            var prev = new int[word1.Length + 1];
-            var current = new int[word1.Length + 1];
+            Span<int> prev = stackalloc int[word1.Length + 1];
+            Span<int> current = stackalloc int[word1.Length + 1];
 
             for (var i = 1; i < word1.Length + 1; i++)
             {
@@ -29,7 +29,9 @@ internal class P0583_DeleteOperationsForTwoStrings
                     current[p1] = 1 + Math.Min(prev[p1], current[p1 - 1]);
                 }
 
-                (current, prev) = (prev, current);
+                var tmp = current;
+                current = prev;
+                prev = tmp;
             }
 
             return prev[word1.Length];
